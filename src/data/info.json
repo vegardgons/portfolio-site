@@ -1,0 +1,57 @@
+{
+  "name": "Vegard Gjertsen Gonsholt",
+  "current_workplace": "University of Bergen",
+  "bio": "I'm an engaged third year computer science student with a strong passion for learning new technologies and contributing to collaborative projects. I enjoy solving problems in a structured and efficient way and thrive both independently and in team settings.",
+  "relevant_experience_history": [
+    {
+      "company": "University of Bergen",
+      "role": "Informatics Oracle (Student assistant)",
+      "start_date": "Aug. 2025",
+      "end_date": "Present",
+      "experiences": "Provide academic support to computer science students at UiB through the oracle arrangement. Focus on making topics understandable and strengthening student learning. Contribute to an accessible and welcoming learning environment."
+    },
+    {
+      "company": "Bekk Consulting, Oslo",
+      "role": "Finalist, Labyrinten Hackathon",
+      "start_date": "Apr. 2025",
+      "end_date": "",
+      "experiences": "Represented echo in the finals against other student unions. Solved programming problems under time pressure. Presented solutions to industry professionals."
+    },
+    {
+      "company": "His Majesty The King\u2019s Guard, Oslo",
+      "role": "Guardsman (National Service)",
+      "start_date": "Aug. 2022",
+      "end_date": "Jul. 2023",
+      "experiences": "Completed compulsory military service with high standards of discipline and teamwork."
+    },
+    {
+      "company": "Pizzabakeren, Haugesund",
+      "role": "Service Employee",
+      "start_date": "Sep. 2020",
+      "end_date": "Jul. 2024",
+      "experiences": "Customer service and teamwork in a fast-paced environment"
+    }
+  ],
+  "coding_projects": [],
+  "contact": {
+    "email": "vegard.gonsholt@gmail.com",
+    "linkedIn": "linkedin.com/in/vegardggonsholt",
+    "github": ""
+  },
+  "other": [
+    {
+      "role": "Vice Chairman",
+      "organisation": "echo Sports Club",
+      "start_date": "Aug. 2024",
+      "end_date": "Present",
+      "description": "Support the leader in organizational decisions. Plan and coordinate sports events and social activities."
+    },
+    {
+      "role": "Board Member",
+      "organisation": "Corporate Relations Committee (Bedriftskomit \u00b4een)",
+      "start_date": "Aug. 2024",
+      "end_date": "Present",
+      "description": "Plan, market, and organize company presentations and workshops. Advise companies on how to effectively reach out to computer science students."
+    }
+  ]
+}
