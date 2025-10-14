@@ -8,15 +8,20 @@ export const Experience = () => {
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
       <ul className={styles.history}>
-
-        {data["relevant_experience_history"].map((historyItem, id) => {
+        {data.experience.map((historyItem, id) => {
           return (
             <li key={id} className={styles.historyItem}>
               <div className={styles.historyItemDetails}>
                 <h3>{`${historyItem.role}, ${historyItem.company}`}</h3>
-                <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                <p>
+                  {historyItem.endDate
+                    ? `${historyItem.startDate} - ${historyItem.endDate}`
+                    : historyItem.startDate}
+                </p>
                 <ul>
-                  <li>{historyItem.experiences}</li>
+                  {historyItem.experiences.map((experience, id) => {
+                    return <li key={id}>{experience}</li>;
+                  })}
                 </ul>
               </div>
             </li>

@@ -30,12 +30,13 @@
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+  z-index: 10;
 }
 
-.link {
-  display: flex;
+.link:hover {
   align-items: center;
-  gap: 25px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.04);
 }
 
 .link a {
@@ -44,6 +45,14 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+}
+
+.icon {
+  width: 100px;
+  /* adjust size as you like */
+  height: 100px;
+  object-fit: contain;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 830px) {

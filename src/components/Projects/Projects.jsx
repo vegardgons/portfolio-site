@@ -5,7 +5,7 @@ import styles from "./Projects.module.css";
 import data from "../../data/info.json";
 import { ProjectCard } from "./ProjectCard";
 
-const projectData = data["coding_projects"];
+const projectData = data["codingProjects"];
 
 export const Projects = () => {
   return (

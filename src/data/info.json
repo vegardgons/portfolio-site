@@ -1,56 +1,111 @@
 {
   "name": "Vegard Gjertsen Gonsholt",
-  "current_workplace": "University of Bergen",
+  "currentWorkplace": "University of Bergen",
   "bio": "I'm an engaged third year computer science student with a strong passion for learning new technologies and contributing to collaborative projects. I enjoy solving problems in a structured and efficient way and thrive both independently and in team settings.",
-  "relevant_experience_history": [
+  "experience": [
     {
-      "company": "University of Bergen",
-      "role": "Informatics Oracle (Student assistant)",
-      "start_date": "Aug. 2025",
-      "end_date": "Present",
-      "experiences": "Provide academic support to computer science students at UiB through the oracle arrangement. Focus on making topics understandable and strengthening student learning. Contribute to an accessible and welcoming learning environment."
+      "company": "UiB",
+      "role": "Student assistant",
+      "startDate": "Aug. 2025",
+      "endDate": "Present",
+      "experiences": [
+        "Provide academic support to computer science students at UiB through the oracle arrangement.",
+        "Focus on making topics understandable and strengthening student learning.",
+        "Contribute to an accessible and welcoming learning environment."
+      ]
     },
     {
-      "company": "Bekk Consulting, Oslo",
+      "company": "Bekk Consulting",
       "role": "Finalist, Labyrinten Hackathon",
-      "start_date": "Apr. 2025",
-      "end_date": "",
-      "experiences": "Represented echo in the finals against other student unions. Solved programming problems under time pressure. Presented solutions to industry professionals."
+      "startDate": "Apr. 2025",
+      "endDate": "",
+      "experiences": [
+        "Represented echo in the finals against other student unions.",
+        "Solved programming problems under time pressure.",
+        "Presented solutions to industry professionals."
+      ]
     },
     {
-      "company": "His Majesty The King\u2019s Guard, Oslo",
-      "role": "Guardsman (National Service)",
-      "start_date": "Aug. 2022",
-      "end_date": "Jul. 2023",
-      "experiences": "Completed compulsory military service with high standards of discipline and teamwork."
+      "company": "Norwegian Army",
+      "role": "National Service",
+      "startDate": "Aug. 2022",
+      "endDate": "Jul. 2023",
+      "experiences": [
+        "Completed compulsory military service with high standards of discipline and teamwork."
+      ]
     },
     {
-      "company": "Pizzabakeren, Haugesund",
+      "company": "Pizzabakeren",
       "role": "Service Employee",
-      "start_date": "Sep. 2020",
-      "end_date": "Jul. 2024",
-      "experiences": "Customer service and teamwork in a fast-paced environment"
+      "startDate": "Sep. 2020",
+      "endDate": "Jul. 2024",
+      "experiences": [
+        "Customer service and teamwork in a fast-paced environment"
+      ]
     }
   ],
-  "coding_projects": [],
+  "codingProjects": [
+    {
+      "title": "Wordle AI",
+      "description": "An AI that plays the popular word game Wordle. It uses a strategy based on letter frequency and position to make educated guesses and improve its chances of winning.",
+      "skills": [
+        "AI",
+        "Algorithms",
+        "Java"
+      ],
+      "source": "https://github.com/vegardgons/wordle-ai"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "A personal portfolio website to showcase my projects and skills. Built with modern web technologies to ensure a responsive and user-friendly experience.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "Vercel"
+      ],
+      "source": "https://github.com/vegardgons/portfolio-site"
+    },
+    {
+      "title": "Minesweeper",
+      "description": "A classic Minesweeper game implemented in Java. Features a graphical user interface and allows players to customize the grid size and number of mines.",
+      "skills": [
+        "Java",
+        "JavaFX",
+        "OOP"
+      ],
+      "source": "https://github.com/vegardgons/minesweeper"
+    },
+    {
+      "title": "Big Head Kickerz",
+      "description": "daiwdjiwa",
+      "skills": [
+        "Node.js",
+        "Socket.io",
+        "Express",
+        "HTML/CSS"
+      ],
+      "source": "https://github.com/vegardgons/chat-application"
+    }
+  ],
   "contact": {
     "email": "vegard.gonsholt@gmail.com",
-    "linkedIn": "linkedin.com/in/vegardggonsholt",
-    "github": ""
+    "linkedIn": "https://linkedin.com/in/vegardggonsholt",
+    "github": "https://github.com/vegardgons"
   },
   "other": [
     {
       "role": "Vice Chairman",
       "organisation": "echo Sports Club",
-      "start_date": "Aug. 2024",
-      "end_date": "Present",
+      "startDate": "Aug. 2024",
+      "endDate": "Present",
       "description": "Support the leader in organizational decisions. Plan and coordinate sports events and social activities."
     },
     {
       "role": "Board Member",
       "organisation": "Corporate Relations Committee (Bedriftskomit \u00b4een)",
-      "start_date": "Aug. 2024",
-      "end_date": "Present",
+      "startDate": "Aug. 2024",
+      "endDate": "Present",
       "description": "Plan, market, and organize company presentations and workshops. Advise companies on how to effectively reach out to computer science students."
     }
   ]

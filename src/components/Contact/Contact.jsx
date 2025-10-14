@@ -14,15 +14,19 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <a href={`mailto:${contactData.email}`}> {contactData.email}</a>
+          <a href={`mailto:${contactData.email}`}> vegard.gonsholt@gmail.com</a>
         </li>
         <li className={styles.link}>
           <a href={contactData.linkedIn} target="_blank" rel="noopener noreferrer">
+            <img src="/linkedin.png" alt="LinkedIn" className={styles.icon} />
             LinkedIn
           </a>
         </li>
         <li className={styles.link}>
-          <a href={contactData.github}>{contactData.github}</a>
+          <a href={contactData.github} target="_blank" rel="noopener noreferrer">
+            <img src="/github.png" alt="GitHub" className={styles.icon} />
+            GitHub
+          </a>
         </li>
       </ul>
     </footer>

@@ -3,14 +3,14 @@ import React from "react";
 import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({
-  project: { project_name, description, technologies, link, githubLink },
+  project: { title, description, skills, demo, source, site },
 }) => {
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>{project_name}</h3>
+      <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
-        {technologies.map((skill, id) => {
+        {skills.map((skill, id) => {
           return (
             <li key={id} className={styles.skill}>
               {skill}
@@ -18,15 +18,20 @@ export const ProjectCard = ({
           );
         })}
       </ul>
-      <div className={styles.links}>
-        {link != null &&
-          <a href={link} className={styles.link}>Demo</a>
-        }
-        {githubLink != null &&
-          <a href={githubLink} className={styles.link}>
-            Source
+      <div className={styles.sources}>
+        {demo != null &&
+          <a href={demo} className={styles.source}>
+            Demo
           </a>
         }
+        {site != null &&
+          <a href={site} className={styles.source}>
+            Site
+          </a>
+        }
+        <a href={source} className={styles.source}>
+          Source
+        </a>
       </div>
     </div>
   );

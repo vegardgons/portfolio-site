@@ -15,8 +15,7 @@ export const Hero = () => {
           {data.bio}
         </p>
       </div>
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+
     </section>
   );
 };
