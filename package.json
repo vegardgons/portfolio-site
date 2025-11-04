@@ -16,6 +16,8 @@
     "web-vitals": "^5.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/helpers": "^7.28.4",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.5.2",
     "@types/react": "19.1.8",
