@@ -78,14 +78,14 @@
     },
     {
       "title": "Big Head Kickerz",
-      "description": "daiwdjiwa",
+      "description": "A two-player football game where players control characters with oversized heads and boots. The game features simple controls, fun physics, and even power-ups!",
       "skills": [
-        "Node.js",
-        "Socket.io",
-        "Express",
-        "HTML/CSS"
+        "libGDX",
+        "Java",
+        "Game Development",
+        "Kanban"
       ],
-      "source": "https://github.com/vegardgons/chat-application"
+      "source": "https://github.com/vegardgons/big-head-kickerz"
     }
   ],
   "contact": {
