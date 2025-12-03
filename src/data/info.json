@@ -110,14 +110,20 @@
       "organisation": "echo Sports Club",
       "startDate": "Aug. 2024",
       "endDate": "Present",
-      "description": "Support the leader in organizational decisions. Plan and coordinate sports events and social activities."
+      "description": [
+        "Support the leader in organizational decisions.",
+        "Plan and coordinate sports events and social activities."
+      ]
     },
     {
       "role": "Board Member",
-      "organisation": "Corporate Relations Committee (Bedriftskomit \u00b4een)",
+      "organisation": "Corporate Relations Committee (Bedriftskomitéen)",
       "startDate": "Aug. 2024",
       "endDate": "Present",
-      "description": "Plan, market, and organize company presentations and workshops. Advise companies on how to effectively reach out to computer science students."
+      "description": [
+        "Plan, market, and organize company presentations and workshops.",
+        "Advise companies on how to effectively reach out to computer science students."
+      ]
     }
   ]
 }
