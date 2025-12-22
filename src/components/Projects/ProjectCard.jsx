@@ -29,7 +29,7 @@ export const ProjectCard = ({
             Site
           </a>
         }
-        <a href={source} className={styles.source}>
+        <a href={source} target="_blank" rel="noopener noreferrer" className={styles.source}>
           Source
         </a>
       </div>
